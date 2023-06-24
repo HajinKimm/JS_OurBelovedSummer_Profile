@@ -1,0 +1,103 @@
+$mainColor: rgb(168, 198, 188);
+$mainFontColor: rgb(78, 94, 89);
+
+
+.wrap {
+    width: 100%;
+
+    .content {
+        .inner {
+            margin: 50px auto;
+            width: 1200px;
+
+            h2 {
+                line-height: 45px;
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 30px;
+                padding: 10px;
+                border-top: 3px solid $mainColor;
+                border-bottom: 3px solid $mainColor;
+                color: $mainFontColor;
+                img{width: 50px;
+                    vertical-align: top;
+                    margin-right: 20px;
+                }
+            }
+
+            .castList {
+                display: flex;
+                flex-wrap: wrap;
+                .castItem {
+                    border: 1px solid $mainColor;
+                    width: 150px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 20px;
+                    margin-right: 25px;
+                    box-sizing: border-box;
+                    margin-bottom: 30px;
+                    
+                    &:nth-child(7n){
+                        margin-right: 0px;
+                    }
+                    strong {
+                        position: absolute;
+                        left: -10px;
+                        top: -10px;
+                        background: #fff;
+                        border: 1px solid $mainColor;
+                        border-radius: 50%;
+                        width: 25px;
+                        height: 25px;
+                        display: block;
+                        text-align: center;
+                        line-height: 22px;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    .pic {
+                        width: 115px;
+                        border-radius: 50%;
+                        height: 115px;
+                        overflow: hidden;
+                        margin-bottom:15px;
+                        position: relative;
+                        
+                        img {
+                            width: 115px;
+                            transition: 0.5s;
+                        }
+                    }
+
+                    h3 {
+                        text-align: center;
+                        font-weight: 600;
+                        font-size: 20px;
+                    }
+
+                    &:hover {
+                        
+                        strong{background-color: $mainColor; color: #fff; border: 1px solid $mainColor;}
+                        img{transform: scale(1.15);}
+                        &::after{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            width: 115px;
+                            height: 115px;
+                            border-radius: 50%;
+                            border: 5px solid $mainColor;
+                            left: 11.5px;
+                            top: 15px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

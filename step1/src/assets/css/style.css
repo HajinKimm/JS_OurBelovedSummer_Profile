@@ -1,0 +1,93 @@
+.wrap {
+  width: 100%;
+}
+.wrap .content .inner {
+  margin: 50px auto;
+  width: 1200px;
+}
+.wrap .content .inner h2 {
+  line-height: 45px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-top: 3px solid rgb(168, 198, 188);
+  border-bottom: 3px solid rgb(168, 198, 188);
+  color: rgb(78, 94, 89);
+}
+.wrap .content .inner h2 img {
+  width: 50px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.wrap .content .inner .castList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrap .content .inner .castList .castItem {
+  border: 1px solid rgb(168, 198, 188);
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-right: 25px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.wrap .content .inner .castList .castItem:nth-child(7n) {
+  margin-right: 0px;
+}
+.wrap .content .inner .castList .castItem strong {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  background: #fff;
+  border: 1px solid rgb(168, 198, 188);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: block;
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrap .content .inner .castList .castItem .pic {
+  width: 115px;
+  border-radius: 50%;
+  height: 115px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrap .content .inner .castList .castItem .pic img {
+  width: 115px;
+  transition: 0.5s;
+}
+.wrap .content .inner .castList .castItem h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.wrap .content .inner .castList .castItem:hover strong {
+  background-color: rgb(168, 198, 188);
+  color: #fff;
+  border: 1px solid rgb(168, 198, 188);
+}
+.wrap .content .inner .castList .castItem:hover img {
+  transform: scale(1.15);
+}
+.wrap .content .inner .castList .castItem:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 5px solid rgb(168, 198, 188);
+  left: 11.5px;
+  top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
