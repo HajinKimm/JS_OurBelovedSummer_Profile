@@ -1,7 +1,7 @@
 # 드라마 [ 그 해 우리는 ] 등장인물 프로필
 
 # 1. Step1
-- React JS : 
+- React JS : https://hajinkimm.github.io/OurBelovedSummer_Profile/step1_react/build/
 - 결과물
   
     <img src="./md_images/step1_output.gif">
@@ -9,12 +9,12 @@
 ---
 # 2. Step2
 ## 2.1 파일구조
-- vite로 작성 및 기능 추가 : 
+- vite로 작성 및 기능 추가 : https://hajinkimm.github.io/OurBelovedSummer_Profile/step2_vite_addDate/dist/
 - components 활용
   
     <img src="./md_images/file_frame.jpg">
-## 2.2 화면
-- 결과물 video
+## 2.2 결과물
+- 결과물 및 기능
   
     <img src="./md_images/setp2_output.gif">
 ---
