@@ -1,7 +1,7 @@
 # 드라마 [ 그 해 우리는 ] 등장인물 프로필
 
 # 1. Step1
-- React JS
+- React JS : 
 - 결과물
   
     <img src="./md_images/step1_output.gif">
@@ -9,7 +9,7 @@
 ---
 # 2. Step2
 ## 2.1 파일구조
-- vite로 작성 및 기능 추가
+- vite로 작성 및 기능 추가 : 
 - components 활용
   
     <img src="./md_images/file_frame.jpg">
