@@ -1,0 +1,23 @@
+.proTab {
+  width: 70%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px 40px;
+}
+.proTab .proTabMenu {
+  display: flex;
+}
+.proTab .proTabMenu li {
+  margin-right: 30px;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-top: 2px solid #7fac98;
+  border-bottom: 2px solid #7fac98;
+  color: #5d8070;
+}
+.proTab .proTabMenu li.on {
+  color: #ebaa1e;
+}
+/*# sourceMappingURL=ProTab.css.map */

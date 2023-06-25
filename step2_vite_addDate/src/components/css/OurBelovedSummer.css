@@ -1,0 +1,46 @@
+.wrap {
+  width: 100%;
+}
+.wrap .header {
+  background-image: url(../../../public/images/headerBg.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.wrap .header .inner {
+  margin: auto;
+  padding-top: 30px;
+  width: 1400px;
+  position: relative;
+  box-sizing: border-box;
+}
+.wrap .header .inner h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgb(105, 133, 123);
+  color: #fff;
+  text-align: center;
+}
+.wrap .header .inner h2 span {
+  font-size: 30px;
+}
+.wrap .content .inner {
+  margin: auto;
+  padding-top: 30px;
+  width: 1400px;
+  position: relative;
+  box-sizing: border-box;
+}
+.wrap .conInfo {
+  background: rgb(221, 235, 230);
+}
+.wrap .conInfo .inner {
+  margin: auto;
+  padding-top: 30px;
+  width: 1400px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 50px 0px;
+}
+/*# sourceMappingURL=OurBelovedSummer.css.map */

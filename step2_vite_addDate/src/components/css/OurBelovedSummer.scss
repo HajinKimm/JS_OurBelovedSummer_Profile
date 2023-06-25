@@ -1,0 +1,48 @@
+@mixin inner{
+    margin: auto;
+    padding-top: 30px;
+    width: 1400px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.wrap {
+    width: 100%;
+    .header{
+        background-image: url(../../../public/images/headerBg.jpg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        .inner {
+            @include inner();
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+                // padding-top: 40px;
+                // line-height: 150px;
+                text-shadow: 0px 0px 10px rgb(105, 133, 123);
+                color: #fff;
+                text-align: center;
+                span{
+                    font-size: 30px;
+                }
+            }
+        }
+        
+    }
+    .content {
+        .inner {
+            @include inner()
+        }
+    }
+    .conInfo{
+        background: rgb(221, 235, 230);
+        .inner{
+            @include inner();
+            padding: 50px 0px;
+        }
+    }
+}

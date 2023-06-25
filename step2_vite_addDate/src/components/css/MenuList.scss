@@ -1,0 +1,26 @@
+.menulist{
+    width: 100%; 
+    margin-top: 20px;   
+    border-top: 2px solid rgba(41, 90, 62, 0.5);
+    border-bottom: 2px solid rgba(41, 90, 62, 0.5);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    li{
+        width: 33.333%;
+        height: 50px;
+        line-height: 50px;
+        background: rgba(255,255,255,0.5);
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+
+        &.on{
+        background: rgba(41, 90, 62, 0.5);
+            strong{
+                color:#fff;
+            }
+        }
+    }
+}
