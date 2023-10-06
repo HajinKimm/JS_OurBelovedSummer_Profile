@@ -2,7 +2,7 @@
   width: 100%;
 }
 .wrap .header {
-  background-image: url(../../../public/images/headerBg.jpg);
+  background-image: url(./images/headerBg.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
